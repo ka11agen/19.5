@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.Work = new System.Windows.Forms.ToolStripButton();
             this.Input = new System.Windows.Forms.ToolStripButton();
+            this.Work = new System.Windows.Forms.ToolStripButton();
             this.Exit = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,15 +56,6 @@
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // Work
-            // 
-            this.Work.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-            this.Work.Image = ((System.Drawing.Image)(resources.GetObject("Work.Image")));
-            this.Work.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Work.Name = "Work";
-            this.Work.Size = new System.Drawing.Size(39, 22);
-            this.Work.Text = "Work";
-            // 
             // Input
             // 
             this.Input.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -75,6 +66,16 @@
             this.Input.Text = "Input";
             this.Input.Click += new System.EventHandler(this.Input_Click);
             // 
+            // Work
+            // 
+            this.Work.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.Work.Image = ((System.Drawing.Image)(resources.GetObject("Work.Image")));
+            this.Work.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Work.Name = "Work";
+            this.Work.Size = new System.Drawing.Size(39, 22);
+            this.Work.Text = "Work";
+            this.Work.Click += new System.EventHandler(this.Work_Click);
+            // 
             // Exit
             // 
             this.Exit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
@@ -83,6 +84,7 @@
             this.Exit.Name = "Exit";
             this.Exit.Size = new System.Drawing.Size(29, 22);
             this.Exit.Text = "Exit";
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
             // 
             // toolStripSeparator1
             // 
@@ -97,6 +99,7 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
+            this.label1.Visible = false;
             // 
             // label2
             // 
@@ -106,6 +109,7 @@
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // label3
             // 
@@ -115,6 +119,7 @@
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
+            this.label3.Visible = false;
             // 
             // checkBox1
             // 
@@ -125,6 +130,7 @@
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Visible = false;
             // 
             // checkBox2
             // 
@@ -135,6 +141,7 @@
             this.checkBox2.TabIndex = 5;
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.Visible = false;
             // 
             // Form1
             // 

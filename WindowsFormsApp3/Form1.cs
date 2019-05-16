@@ -31,11 +31,20 @@ namespace WindowsFormsApp3
             label3.Text = f.den;
             checkBox1.Checked = f.x;
             checkBox2.Checked = f.x1;
-            R = int.Parse(label1.Text);
-            H = int.Parse(label2.Text);
-            D = int.Parse(label3.Text);
-            V = 3.14 * R*R*H;
-            M = ((3.14 * ((R * 2) * (R * 2)) * H) / 4000) * D;
+            if (label1.Text != "" && label2.Text != "" && label3.Text != "")
+            {
+                R = int.Parse(label1.Text);
+                H = int.Parse(label2.Text);
+                D = int.Parse(label3.Text);
+            }
+            else
+            {
+                R = 0;
+                H = 0;
+                D = 0;
+            }
+            V = (1.0/3)*3.14 * R*R*H;
+            M = ((3.14 * ((R * 2) * (R * 2)) * H) / 12000) * D;
         }
 
         private void Work_Click(object sender, EventArgs e)

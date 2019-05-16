@@ -99,7 +99,6 @@
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "label1";
-            this.label1.Visible = false;
             // 
             // label2
             // 
@@ -109,7 +108,6 @@
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 2;
             this.label2.Text = "label2";
-            this.label2.Visible = false;
             // 
             // label3
             // 
@@ -119,7 +117,6 @@
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "label3";
-            this.label3.Visible = false;
             // 
             // checkBox1
             // 
@@ -130,7 +127,6 @@
             this.checkBox1.TabIndex = 4;
             this.checkBox1.Text = "checkBox1";
             this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.Visible = false;
             // 
             // checkBox2
             // 
@@ -141,7 +137,6 @@
             this.checkBox2.TabIndex = 5;
             this.checkBox2.Text = "checkBox2";
             this.checkBox2.UseVisualStyleBackColor = true;
-            this.checkBox2.Visible = false;
             // 
             // Form1
             // 
